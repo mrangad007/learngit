@@ -1,0 +1,12 @@
+git config --global user.email "careandrroid@gmail.com"
+git config --global user.name "mrangad007"
+git config --global password "pass"
+
+git init
+git add[filename] || -A
+git status
+git commit
+git remote add origin repoName
+git push origin master
+git clone repoName
+git pull origin master
