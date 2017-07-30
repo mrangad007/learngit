@@ -1,0 +1,535 @@
+
+mrangad0007@Angadnwlapi81 MINGW64 ~
+$ cd C:\xampp\htdocs
+bash: cd: C:xampphtdocs: No such file or directory
+
+mrangad0007@Angadnwlapi81 MINGW64 ~
+$ cd c:
+
+mrangad0007@Angadnwlapi81 MINGW64 /c
+$ cc
+bash: cc: command not found
+
+mrangad0007@Angadnwlapi81 MINGW64 /c
+$ cd C:/xampp/htdocs
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs
+$ ss
+bash: ss: command not found
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/.git/
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs (master)
+$ cd learn_git
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/learn_git/.git/
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.php
+        notes.txt
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git add -A
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.php
+        new file:   notes.txt
+        new file:   style.css
+
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git commit -m "Added Index.php & style.css & notes.txt"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mrangad0007@Angadnwlapi81.(none)')
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ ^C
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git config --global user.email "careandrroid@gmail.com"
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git config --global user.name "mrangad007"
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git commit -m "Added Index.php & style.css & notes.txt"
+[master (root-commit) c2dd86c] Added Index.php & style.css & notes.txt
+ 3 files changed, 26 insertions(+)
+ create mode 100644 index.php
+ create mode 100644 notes.txt
+ create mode 100644 style.css
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git remote add origin https://github.com/mrangad007/learngit.git
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git push origin master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 628 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/mrangad007/learngit.git
+ * [new branch]      master -> master
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ cd c:/xampp/htdocs/user2
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ git clone https://github.com/mrangad007/learngit.git
+Cloning into 'learngit'...
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ cd ^C
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ cd c/xampp/htdocs/learn_git
+bash: cd: c/xampp/htdocs/learn_git: No such file or directory
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ cd c:/xampp/htdocs/learn_git
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git add index.js
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git commit -m "added index.js"
+[master 1877417] added index.js
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.js
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 338 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/mrangad007/learngit.git
+   c2dd86c..1877417  master -> master
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ cd c:/xampp/htdocs/user2
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ ls
+learngit/
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ git pull origin master
+fatal: Not a git repository (or any of the parent directories): .git
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ git clone https://github.com/mrangad007/learngit.git
+fatal: destination path 'learngit' already exists and is not an empty directory.
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ git clone https://github.com/mrangad007/learngit.git
+fatal: destination path 'learngit' already exists and is not an empty directory.
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ git clone https://github.com/mrangad007/learngit.git
+fatal: destination path 'learngit' already exists and is not an empty directory.
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/user2/.git/
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2 (master)
+$ git pull origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2 (master)
+$ cd learngit
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2/learngit (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/mrangad007/learngit
+ * branch            master     -> FETCH_HEAD
+   c2dd86c..1877417  master     -> origin/master
+Updating c2dd86c..1877417
+Fast-forward
+ index.js | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.js
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/user2/learngit (master)
+$ cd c:/xampp/htdocs/learn_git
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch
+* master
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch new_feature
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch
+* master
+  new_feature
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git checkout new_feature
+Switched to branch 'new_feature'
+M       notes.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (new_feature)
+$ git branch
+  master
+* new_feature
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (new_feature)
+$ git add -A
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (new_feature)
+$ git commit -m "add feature.txt"
+[new_feature 4c55b00] add feature.txt
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+ create mode 100644 feature.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (new_feature)
+$ git branch
+  master
+* new_feature
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (new_feature)
+$ git checkout master
+Switched to branch 'master'
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch
+* master
+  new_feature
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch checkout new_feature
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch
+  checkout
+* master
+  new_feature
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git checkout new_feature
+Switched to branch 'new_feature'
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (new_feature)
+$ get checkout master
+bash: get: command not found
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (new_feature)
+$ git checkout master
+Switched to branch 'master'
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git merge new_feature
+Updating 1877417..4c55b00
+Fast-forward
+ feature.txt |  1 +
+ notes.txt   | 12 +++++++++---
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+ create mode 100644 feature.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch -d new_feature
+Deleted branch new_feature (was 4c55b00).
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch
+  checkout
+* master
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch -d checkout
+Deleted branch checkout (was 4c55b00).
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git branch
+* master
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ ^C
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 541 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mrangad007/learngit.git
+   1877417..4c55b00  master -> master
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log
+commit 4c55b008905d07215cc8fd711c4cabd6b925d0a3 (HEAD -> master, origin/master)
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Fri Jul 28 00:32:10 2017 +0530
+
+    add feature.txt
+
+commit 18774175bceb2b1ad502741de1e4e5160a28e581
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Fri Jul 28 00:11:13 2017 +0530
+
+    added index.js
+
+commit c2dd86cbdf89858db55f1bc9641df1b81960433b
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Thu Jul 27 23:56:30 2017 +0530
+
+    Added Index.php & style.css & notes.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log -2
+commit 4c55b008905d07215cc8fd711c4cabd6b925d0a3 (HEAD -> master, origin/master)
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Fri Jul 28 00:32:10 2017 +0530
+
+    add feature.txt
+
+commit 18774175bceb2b1ad502741de1e4e5160a28e581
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Fri Jul 28 00:11:13 2017 +0530
+
+    added index.js
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log --online
+fatal: unrecognized argument: --online
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log --oneline
+4c55b00 (HEAD -> master, origin/master) add feature.txt
+1877417 added index.js
+c2dd86c Added Index.php & style.css & notes.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log --grep="readme"
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log -i --grep="readme"
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log -i --grep="feature"
+commit 4c55b008905d07215cc8fd711c4cabd6b925d0a3 (HEAD -> master, origin/master)
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Fri Jul 28 00:32:10 2017 +0530
+
+    add feature.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log --author="shoaib"
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log -i -G"feature"
+commit 4c55b008905d07215cc8fd711c4cabd6b925d0a3 (HEAD -> master, origin/master)
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Fri Jul 28 00:32:10 2017 +0530
+
+    add feature.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log -i -G"hello"
+commit c2dd86cbdf89858db55f1bc9641df1b81960433b
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Thu Jul 27 23:56:30 2017 +0530
+
+    Added Index.php & style.css & notes.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git log -i -p -G"hello"
+commit c2dd86cbdf89858db55f1bc9641df1b81960433b
+Author: mrangad007 <careandrroid@gmail.com>
+Date:   Thu Jul 27 23:56:30 2017 +0530
+
+    Added Index.php & style.css & notes.txt
+
+diff --git a/index.php b/index.php
+new file mode 100644
+index 0000000..e24ec4d
+--- /dev/null
++++ b/index.php
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html>
++<head>
++       <title>My Git Page</title>
++       <link rel="stylesheet" type="text/css" href="style.css">
++</head>
++<body>
++<h2 class="c1">Hello Git</h2>
++</body>
++</html>
+\ No newline at end of file
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash save "Added h2"
+Saved working directory and index state On master: Added h2
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+stash@{0}: On master: Added h2
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash apply stash@{0}
+error: Your local changes to the following files would be overwritten by merge:
+        notes.txt
+Please commit your changes or stash them before you merge.
+Aborting
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash
+Saved working directory and index state WIP on master: 4c55b00 add feature.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+stash@{0}: WIP on master: 4c55b00 add feature.txt
+stash@{1}: On master: Added h2
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash apply stash@{1}
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.php
+        modified:   notes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash drop stash@{1}
+Dropped stash@{1} (e3e1d60a49616097001204551e727f3ab91a3cc8)
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+stash@{0}: WIP on master: 4c55b00 add feature.txt
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash drop stash@{0}^C
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash drop stash@{0}
+Dropped stash@{0} (cbb465ac81bb60d33d3227350f835d43e3732d8a)
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash save "Added h2"
+Saved working directory and index state On master: Added h2
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash drop stash@{0}
+Dropped stash@{0} (8dc67e944a2bcd75e8775588763eda8a744d6b8e)
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash save "Added h1"
+Saved working directory and index state On master: Added h1
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+stash@{0}: On master: Added h1
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash apply stash@{0}
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+stash@{0}: On master: Added h1
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash save "added h1"
+Saved working directory and index state On master: added h1
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+stash@{0}: On master: added h1
+stash@{1}: On master: Added h1
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash clear
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$ git stash list
+
+mrangad0007@Angadnwlapi81 MINGW64 /c/xampp/htdocs/learn_git (master)
+$

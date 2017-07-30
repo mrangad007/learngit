@@ -1,0 +1,45 @@
+git init
+git status
+git add -A
+git commit -m "commit msg comment"
+git remote add origin http://www.github.com/mruser007/learngit
+git push origin master
+git global email //identifies useremail
+git global username //identifies username
+git push origin master
+ask for usrname pas->login
+successfully transfer to remote dir
+
+git clone http://www.github.com/mruser007/learngit
+new init
+set global useremail
+set global username
+create branch for clone
+git branch // check status for on which branch you are
+git checkout new_feature
+do changes in your code
+when asked to work on diff feature
+create stash with start changes // will move your code to zero changes
+git stash apply new_feature when required
+create another stash with zero changes
+git branch checkout master
+git branch merge new_feature
+git now unable to identify you
+git global useremail
+git global username
+git branch merge new_feature
+git branch finally merged to master and added new feature to your app by another team member ! 
+thats great way to interact with other team member and add contribution by teammate
+
+already you are set as global useremail and global username, just pull the update
+git remote add origin http://www.github.com/mruser007/learngit
+git pull origin master
+your repositary now successfully updated from master //thats how you receive final update from other developers
+
+now anyone can check for log->now noone is master anyone can query for anybody with git log
+git log
+git log --2
+git log -i user="rohit"
+git log -G="hello" //look for code change with hello as change and also show code
+
+

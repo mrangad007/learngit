@@ -1,3 +1,6 @@
+logout from current user in gitbash by remove windows credentials in windows user account
+(Control Panel\User Accounts and Family Safety\Credential Manager)
+
 git config --global user.email "careandrroid@gmail.com"
 git config --global user.name "mrangad007"
 git config --global password "pass"
@@ -7,6 +10,7 @@ git add[filename] || -A , git add -A
 git status
 git commit
 git remote add origin repoName
+git remote set-url origin git@github.com:ppreyer/first_app.git
 git push origin master - to push files to live repo
 git pull origin master - to pull files from live repo
 git clone repoName
@@ -16,3 +20,29 @@ git branch
 git branch new_feature
 git checkout new_feature
 git add -A
+git merge new_feature
+git branch -d new_feature
+
+git log
+git log -p
+git log --online
+git log -2
+git log --grep="readme" //case sensitive issue
+git log -i --grep="readme" // make it case insensitive
+git log -i --grep="Text"
+git log -i -G"hello"
+git log -i -p -G"hello"
+git log -i -G"Text in code"
+git log --stat
+git log -i
+--author="mrangad007"
+
+Git stash save "dasd"
+git stash save "Added h2"
+git stash list
+git stash apply {uniqueID}
+git stash apply stash@{1}
+git stash drop {uniqueID}
+git stash drop stash@{0}
+git stash pop
+git stash clean - delete all stash
